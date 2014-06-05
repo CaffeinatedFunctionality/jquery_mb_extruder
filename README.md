@@ -1,24 +1,24 @@
-# Jquery::Mb::Extruder::Framework
+# JQuery MB Extruder - Rails Gem
 
-TODO: Write a gem description
+This is a Rails gem that will install the [JQuery MB Extruder](http://pupunzi.com/#mb.components/mb.extruder/extruder.html) in your application.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'jquery-mb-extruder-framework'
+    gem 'jquery_mb_extruder'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
-    $ gem install jquery-mb-extruder-framework
+    $ gem install jquery_mb_extruder
 
 ## Usage
 
-# mb.extruder
+# mb.extruder.readme
 
 __An open source jQuery component to easily build a top or left sliding panel.__
 
@@ -30,15 +30,32 @@ __An open source jQuery component to easily build a top or left sliding panel.__
 
 
 [jquery.mb.components](http://pupunzi.com/), another way of thinking the web
+	
+	
+#### CSS
+
+Add this line at the end of your application.css
+
+	*= require jquery_mb_extruder
+	
+#### Javascript
+
+
+You will need to add global jquery_mb_extruder object in your application.js:
+
+	//= require jquery_mb_extruder
+
+#### Thanks
 
 Thanks to the makers of mb.extruder!
 
 Scy0846
 
+
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/jquery-mb-extruder-framework/fork )
+1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+5. Create new Pull Request
