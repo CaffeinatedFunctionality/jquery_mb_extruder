@@ -36,14 +36,14 @@ __An open source jQuery component to easily build a top or left sliding panel.__
 
 Add this line at the end of your application.css
 
-	*= require_tree ./jquery_mb_extruder
+	*= require jquery_mb_extruder.all
 	
 #### Javascript
 
 
 You will need to add global jquery_mb_extruder object in your application.js:
 
-	//= require_tree ./jquery_mb_extruder
+	//= require jquery_mb_extruder.all
 
 #### Thanks
 
