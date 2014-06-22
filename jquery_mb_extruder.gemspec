@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Taylor Mitchell"]
   spec.email         = ["scy0846@gmail.com"]
   spec.summary       = %q{JQuery MB Extruder Framework for Rails.}
-  spec.description   = %q{You can find more details on how to use this at http://pupunzi.com/#mb.components/mb.extruder/extruder.html. While this gem is not my creation, I did not create the jquery.mb.extruder framework.}
+  spec.description   = %q{You can find more details on how to use this at http://pupunzi.com/#mb.components/mb.extruder/extruder.html. While this gem is my creation, I did not create the jquery.mb.extruder framework.}
   spec.homepage      = "https://github.com/scy0846/jquery_mb_extruder"
   spec.license       = "MIT"
 
