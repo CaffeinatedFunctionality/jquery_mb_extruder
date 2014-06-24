@@ -2,6 +2,8 @@
 
 This is a Rails gem that will install the [JQuery MB Extruder](http://pupunzi.com/#mb.components/mb.extruder/extruder.html) in your application.
 
+JQuery MB Extruder is a JQuery plugin that will allow you to create tabbed content anywhere and is pretty awesome. It can be hardcoded content or AJAXed pages allowing you to extend views onto the same page. For example a social sidebar or a menu or whatever the heck you want your users to have without going to a separate page(Including video which there is a demo for). Also loading times are freakin excellent!
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -15,6 +17,12 @@ And then execute:
 Or install it yourself as:
 
     $ gem install jquery_mb_extruder
+
+__Optionnally__, you can create views as a demo to guide you through your own implementation:
+```shell
+$ rails g jquery_mb_extruder:views
+```    
+The files that the views give you are demo files. You will need the parts controller. Each demo file does have inline CSS(I did not create them, they are from JQuery MB, and I don't feel like changing the IDs on each page to make an extruder.sass file for a demo). If you use this, do yourself a favor and put them in an external css/sass file.
 
 ## Usage
 
@@ -51,6 +59,9 @@ Thanks to the makers of mb.extruder!
 
 Scy0846
 
+#### If you like this...
+
+I am considering making more gems of JQuery MBs work. They are all excellent plugins.
 
 ## Contributing
 
